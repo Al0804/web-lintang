@@ -130,6 +130,7 @@ header {
     min-height: 100vh;
     padding: 100px 20px;
     background: url('Image/modern-architecture-school-kindergarten-building-colorful-3376x6000-5279.jpg') center/cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('Image/modern-architecture-school-kindergarten-building-colorful-3376x6000-5279.jpg') center/cover;
 }
 
 .section-title {
