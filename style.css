@@ -371,15 +371,16 @@ header {
 #contact {
     min-height: 100vh;
     padding: 100px 20px;
-    background: url('your-contact-bg.jpg') center/cover;
+    background-color: #f7f7f7; /* Ubah background menjadi warna putih keabu-abuan */
 }
 
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
+    background-color: #fff; /* Ubah background menjadi warna putih */
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px; /* Ubah sudut menjadi lebih bulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan */
 }
 
 .form-group {
@@ -391,9 +392,9 @@ header {
     width: 100%;
     padding: 10px;
     border: none;
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-    border-radius: 5px;
+    background-color: #f7f7f7; /* Ubah background menjadi warna putih keabu-abuan */
+    color: #333; /* Ubah warna teks menjadi hitam */
+    border-radius: 10px;
 }
 
 .form-group textarea {
@@ -404,17 +405,16 @@ header {
 .contact-form button {
     width: 100%;
     padding: 15px;
-    background: #ffd700;
+    background-color: #4CAF50; /* Ubah warna tombol menjadi hijau */
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .contact-form button:hover {
-    background: #fff;
+    background-color: #3e8e41; /* Ubah warna tombol menjadi hijau tua pada hover */
 }
-
 /* Footer */
 footer {
     background: #000;
