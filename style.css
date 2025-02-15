@@ -245,10 +245,10 @@ header {
 #kinnies {
     min-height: 100vh;
     padding: 100px 20px;
-    position: relative;
+    position: static;
     overflow: hidden;
-    background: url('Image/deku.gif') center/cover;  /* Latar belakang tetap menutupi */
-    background-size: cover; /* Pastikan background menutupi seluruh area */
+    background-color: #333; /* Ubah background menjadi warna abu-abu tua */
+    color: #ffd700; /* Warna kuning */
 }
 
 /* Container styling */
